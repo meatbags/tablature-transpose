@@ -1,3 +1,25 @@
+div, * {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.controls {
+  width: 100%;
+}
+
 #tab {
   font-family: monospace;
 }
